@@ -4,3 +4,43 @@ body{
 div{
 	border: 1px solid Chocolate;
 }
+.navigation-right > li{
+	float:right;
+	list-style-type: none;
+	padding:15px;
+	font-size:15px;
+}
+header{
+	position: fixed;
+	top:0;
+	left:0;
+	width:100%;
+	background-color:#fff;
+}
+ul{
+	margin-right:265px;
+	margin-top: 7px;
+	margin-bottom: 65px;
+}
+img{
+	float:left;
+	position: absolute;
+	left:260px;
+	top:10px;
+}
+a{
+	color:#7f7f7f;
+	font-family:Franklin Gothic Book;
+	letter-spacing: 0.4px;
+	font-size:17px;
+}
+a:link{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+	color:#000;
+}
+#meet_karma{
+	color: rgba(69, 69, 69, 0.78);
+}
