@@ -4,6 +4,8 @@ body{
 div{
 	border: 1px solid Chocolate;
 }
+/*OLD CODE
+
 .navigation-right > li{
 	float:right;
 	list-style-type: none;
@@ -43,4 +45,15 @@ a:hover{
 }
 #meet_karma{
 	color: rgba(69, 69, 69, 0.78);
+}
+*/
+
+/*Navigation Section*/
+.top-navigation{
+	background-color: #fff;
+}
+.top-navigation > .content{
+	width:970px;
+	height:70px;
+	margin:0 auto;
 }
