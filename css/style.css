@@ -61,6 +61,10 @@ body{
 }
 .top-navigation{
 	background-color: #fff;
+	position:fixed;
+	width:100%;
+	top:0;
+	left:0;
 }
 .top-navigation > .content{
 	width:970px;
@@ -101,19 +105,25 @@ body{
     background-size: cover;
     height: 45.938rem;
     overflow: auto;
+    margin-top:4.4rem;
 }
 .background h1{
-	margin-top=17.5rem;
+	margin-top:280px;
+	margin-bottom:0px;
 	font-size: 3.1125rem;
 }
 .background h3{
 	margin-top:1.25rem;
+	margin-bottom:0rem;
 	font-size:1.563rem;
 }
 .background h1,h3{
 	color:#fff;
 	font-weight:300;
 	text-align:center;
+}
+.button{
+	margin-top: 25.008px;
 }
 button{
 	background-color: #f15a29;
@@ -132,4 +142,42 @@ button:hover{
 	background-color:#d9400e;
 	border-color:#d9400e;
 	cursor:pointer;
+}
+.icons-section .icon-desc{
+	text-align:center;
+	margin-top: 7.875rem;
+	margin:0 auto;
+	padding:0 0.938rem;
+	display: block;
+	font-family:"Roboto",sans-serif;
+	color:#000;
+}
+.icons-section .icon-list{
+	list-style-type: none;
+}
+.icon-list li{
+	display:inline-block;
+	margin-right:40px;
+	padding:242.594 50;
+}
+.icon-list .text{
+	margin-top:40px;
+	margin-bottom: 30px;
+}
+.icons-section h1{
+	font-size:2.75rem;
+	font-weight:300;
+	margin-top: 1.625rem;
+    margin-right: 0px;
+    margin-bottom: 3.125rem;
+
+}
+.icon-list h3{
+	font-weight: 400;
+    font-size: 1.563rem;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top:2.5rem;
+    margin-bottom:1.875rem;
+    color:#1d1e21;
 }
