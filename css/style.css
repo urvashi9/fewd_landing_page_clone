@@ -1,8 +1,5 @@
 body{
-	background-color:LightGray;
-}
-div{
-	border: 1px solid Chocolate;
+	background-color:#fff;
 }
 /*OLD CODE
 
@@ -143,7 +140,7 @@ button:hover{
 	border-color:#d9400e;
 	cursor:pointer;
 }
-.icons-section .icon-desc{
+.icons-section .content{
 	text-align:center;
 	margin-top: 7.875rem;
 	margin:0 auto;
@@ -180,4 +177,39 @@ button:hover{
     margin-top:2.5rem;
     margin-bottom:1.875rem;
     color:#1d1e21;
+}
+.social > .content{
+	text-align: center;
+}
+.social .icons{
+	display:block;
+	list-style-type: none;
+}
+.social .icons >li{
+	border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+.social .twitter{
+	color:#55acee;
+}
+.social .facebook{
+	color:#4c66a4;
+}
+.social .instagram{
+	color:#3f729b;
+}
+.social .copy{
+	font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
+    margin-left:3rem;
+}
+.social .content > p{
+	margin-left: 2.25rem;
 }
