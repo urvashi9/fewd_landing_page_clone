@@ -96,7 +96,7 @@ body{
 	cursor: pointer;
 }
 .background{
-	background-image:url('C:/Users/Ikshwaku/Documents/Thinkful/Projects/startup-landing-page-clone/background.jpg');
+	background-image:url('../background.jpg');
 	background-position:center bottom;
 	background-repeat: no-repeat;
     background-size: cover;
